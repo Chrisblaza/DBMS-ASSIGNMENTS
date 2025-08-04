@@ -79,12 +79,11 @@ INSERT INTO employee_projects (employee_id, project_id, assigned_date) VALUES
 (109, 208, '2025-01-10'),
 (110, 206, '2021-11-05');
 
--- EXERCISES (1-50)
--- Below are the PostgreSQL queries solving each question.
-
--- 1
+    EXERCISES
+1.Concatenate first and last name as full_name.
 SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM employees;
--- 2
+
+2.Convert all employee names to lowercase.
 SELECT LOWER(first_name), LOWER(last_name) FROM employees;
 -- 3
 SELECT SUBSTRING(first_name, 1, 3) FROM employees;
