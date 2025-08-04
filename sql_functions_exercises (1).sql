@@ -1,6 +1,5 @@
--- SQL Functions and Exercises with PostgreSQL Implementation
-
--- DATABASE STRUCTURE
+DBMS ASSIGNMENNTS ON STOCK_MANAGEMENTS
+    
 CREATE TABLE departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(100)
